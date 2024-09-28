@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*
+Theme Name: Dan2024
+Theme URI: localhost/dan2024/
+Description: Ken Nonoyama Website
+*/
+
+/****************************************
+
+	General Setting 
+
+****************************************/
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.07em;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/****************************************
+
+	Common Setting 
+
+****************************************/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bg-colored {
+    background-color: #ccc;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0;
+}
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+}    
+.col-triple {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gap-wide {
+    gap: 80px;
+}
+.gap-narrow {
+    gap: 40px;
+}
+.tile {
+    border: 1px solid #ccc;
+}
+.tile img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 /3;
+    object-fit: cover;
+    object-position: top;
+}
+.tile-body {
+    padding: 24px;
+}
+.button {
+    text-align: center;
+}
+.button a {
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+.button a:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+/****************************************
+
+    Header 
+
+****************************************/
+#head {
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+    background-color: #666;
+    color: #fff;
+}
+#main-nav ul {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 60px;
+}
+
+/****************************************
+
+    Top Page 
+
+****************************************/
+.nav-members {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-members img {
+    width: 100%;
+    height: auto;
+}
+.nav-members p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.top-category img {
+    width: 100%;
+    height: auto; 
+}
+
+/****************************************
+
+    Footer 
+
+****************************************/
+#foot {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+}
+#footer-nav ul {
+    display: flex;
+}
+
+
